@@ -39,10 +39,12 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
-    implementation("com.github.evolve-asia:CloudStorageUtil:2.0.0") {
-        exclude group: 'com.google.api.grpc'
-        exclude group: 'com.google.protobuf', module: 'protobuf-java'
-    }
+//    implementation("com.github.evolve-asia:CloudStorageUtil:2.0.0") {
+//        exclude group: 'com.google.api.grpc'
+//        exclude group: 'com.google.protobuf', module: 'protobuf-java'
+//    }
+
+    implementation 'com.github.chettrir1:cloud-storage-util:2.0.0'
 
     //Easy Permission
 //    implementation 'pub.devrel:easypermissions:3.0.0'
