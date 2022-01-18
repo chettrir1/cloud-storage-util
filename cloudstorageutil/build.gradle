@@ -59,7 +59,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.chettrir1'
                 artifactId = 'cloud-storage-util'
-                version = '2.0.2'
+                version = '2.0.3'
             }
         }
     }
