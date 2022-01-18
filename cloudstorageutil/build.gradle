@@ -54,8 +54,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.saugatrai33'
-                artifactId = 'evolve-camerax'
+                groupId = 'com.github.chettrir1'
+                artifactId = 'cloud-storage-util'
                 version = '2.0.0'
             }
         }
