@@ -31,12 +31,17 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(":cloudstorageutil")
+//    implementation project(":cloudstorageutil")
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+
+    implementation("com.github.evolve-asia:CloudStorageUtil:aws-v2-SNAPSHOT") {
+        exclude group: 'com.google.api.grpc'
+        exclude group: 'com.google.protobuf', module: 'protobuf-java'
+    }
 
     //Easy Permission
     implementation 'pub.devrel:easypermissions:3.0.0'
