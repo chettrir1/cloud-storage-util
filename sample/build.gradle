@@ -31,7 +31,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-//    implementation project(":cloudstorageutil")
+    implementation project(":cloudstorageutil")
     implementation 'com.github.saugatrai33:EvolveCameraX:2.0.1'
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -44,10 +44,8 @@ dependencies {
 //        exclude group: 'com.google.protobuf', module: 'protobuf-java'
 //    }
 
-    implementation 'com.github.chettrir1:cloud-storage-util:2.0.0'
-
     //Easy Permission
-//    implementation 'pub.devrel:easypermissions:3.0.0'
+    implementation 'pub.devrel:easypermissions:3.0.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
